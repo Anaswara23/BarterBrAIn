@@ -1,0 +1,43 @@
+# Firebase configuration files (contain sensitive API keys)
+**/firebase_options.dart
+**/GoogleService-Info.plist
+**/google-services.json
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# API Keys and secrets
+**/*secret*
+**/*key*
+**/*credential*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Flutter/Dart specific
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+
+# Firebase
+.firebase/
+firebase-debug.log
+firebase-debug.*.log

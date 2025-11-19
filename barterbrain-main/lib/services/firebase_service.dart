@@ -84,7 +84,7 @@ class FirebaseService {
     String name,
     Map<String, dynamic>? data,
   ) async {
-    const projectId = 'barterbrain-1254a';
+    const projectId = 'YOUR_PROJECT_ID';
     const region = 'us-central1'; // Default region, change if needed
     final url = 'https://$region-$projectId.cloudfunctions.net/$name';
 

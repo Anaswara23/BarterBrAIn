@@ -6,7 +6,7 @@ import 'package:http/http.dart' as http;
 class AIService {
   // ⚠️ UPDATED: Base URL changed from ProductPricePredictionApi to BarterBrainAPI
   static const String _baseUrl = 
-      'https://us-central1-barterbrain-1254a.cloudfunctions.net/BarterBrainAPI';
+      'https://us-central1-YOUR_PROJECT_ID.cloudfunctions.net/BarterBrainAPI';
   
   static const String _pricePredictionUrl = '$_baseUrl/ai/metadataValuation';
   static const String _negotiationCoachUrl = '$_baseUrl/ai/negotiationCoach';

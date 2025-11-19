@@ -46,7 +46,7 @@ flutter pub get
 
 # Setup Firebase
 firebase login
-firebase use barterbrain-1254a
+firebase use YOUR_PROJECT_ID
 
 # Install Cloud Functions dependencies
 cd functions
